@@ -16,6 +16,8 @@ var MyQueue=function queue(){
     this.values= function values(){
         return collection
     }
+
+    
     
     this.front= function front(){
         return collection[0]
